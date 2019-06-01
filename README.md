@@ -8,7 +8,7 @@ This library very samll 1.2k
 
 Function return boolean value. Returns true if the TC number passes the verification function.
 
-## How instal and use
+## How install and use
 
 Run `npm install tcno-verification --save`.
 
