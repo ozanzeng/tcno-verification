@@ -2,7 +2,7 @@
 
 Checks the accuracy of the entered TC Number.
 
-This library very samll 1.2k
+This library very small 1.2k
 
 ## Function Response
 
