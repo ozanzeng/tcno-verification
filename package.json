@@ -1,0 +1,25 @@
+{
+  "name": "tcno-verification",
+  "version": "1.0.0",
+  "description": "Checks the accuracy of the entered TC Number.",
+  "main": "tcno-verification.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TCNO",
+    "kimilik",
+    "numarası",
+    "doğrulama"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozanzeng/tcno-verification.git"
+  },
+  "author": "Ozan ZENGIN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ozanzeng/tcno-verification/issues"
+  },
+  "homepage": "https://github.com/ozanzeng/tcno-verification#readme"
+}
