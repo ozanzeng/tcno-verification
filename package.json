@@ -1,6 +1,6 @@
 {
   "name": "tcno-verification",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Checks the accuracy of the entered TC Number.",
   "main": "tcno-verification.js",
   "scripts": {
