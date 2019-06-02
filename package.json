@@ -1,6 +1,6 @@
 {
   "name": "tcno-verification",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Checks the accuracy of the entered TC Number.",
   "main": "tcno-verification.js",
   "scripts": {
@@ -10,7 +10,9 @@
     "TCNO",
     "kimilik",
     "numarası",
-    "doğrulama"
+    "doğrulama",
+    "identify",
+    "verification"
   ],
   "repository": {
     "type": "git",

@@ -4,9 +4,11 @@ Checks the accuracy of the entered TC Number.
 
 This library very small 1.2k
 
+Demo link is [here](https://codesandbox.io/s/modest-mendel-eo9tk).
+
 ## Function Response
 
-Function return boolean value. Returns true if the TC number passes the verification function.
+The function returns a boolean value. If TC number passes through the function of validation, the true would return.
 
 ## How install and use
 
