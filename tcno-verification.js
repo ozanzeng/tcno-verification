@@ -6,7 +6,8 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var TCNoVerification = function TCNoVerification(identyNumber) {
-  if (identyNumber.length !== 11) return false;
+  var replacedText = identyNumber.replace(/\D+/g, '');
+  if (replacedText.substring(0, 1) === '0' || replacedText.length !== 11) return false;
   var TCNoFirstTen = identyNumber.substring(0, 10);
   var TCNoLastDigit = TCNoFirstTen.split('').map(function (i) {
     return parseInt(i);

@@ -1,10 +1,11 @@
 {
   "name": "tcno-verification",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Checks the accuracy of the entered TC Number.",
   "main": "tcno-verification.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel --presets=es2015 tcno-verification-dev.js > tcno-verification.js"
   },
   "keywords": [
     "TCNO",
