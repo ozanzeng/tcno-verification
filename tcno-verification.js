@@ -17,14 +17,13 @@ var TCNoVerification = function TCNoVerification(identyNumber) {
   var TCNoFirstNineArray = identyNumber.substring(0, 9).split('');
   var sumOfEvenIndexes = 0;
   var sumOfOddIndexes = 0;
-  for(var i=0;i<9;i++){
-    if(i%2==0)
-      sumOfEvenIndexes += parseInt(TCNoFirstNineArray[i]);
-    else
-      sumOfOddIndexes += parseInt(TCNoFirstNineArray[i]);
+
+  for (var i = 0; i < 9; i++) {
+    if (i % 2 == 0) sumOfEvenIndexes += parseInt(TCNoFirstNineArray[i]);else sumOfOddIndexes += parseInt(TCNoFirstNineArray[i]);
   }
-  var TCNoSecondFromTheLastDigit = ((sumOfEvenIndexes * 7 - sumOfOddIndexes) % 10 + 10) % 10; 
-  return TCNoLastDigit === +identyNumber[10] & TCNoSecondFromTheLastDigit == +identyNumber[9];
+
+  var TCNoSecondFromTheLastDigit = ((sumOfEvenIndexes * 7 - sumOfOddIndexes) % 10 + 10) % 10;
+  return TCNoLastDigit === +identyNumber[10] && TCNoSecondFromTheLastDigit == +identyNumber[9];
 };
 
 var _default = TCNoVerification;
