@@ -5,6 +5,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
+function _readOnlyError(name) { throw new Error("\"" + name + "\" is read-only"); }
+
 var TCNoVerification = function TCNoVerification(identyNumber) {
   var replacedText = identyNumber.replace(/\D+/g, '');
   if (replacedText.substring(0, 1) === '0' || replacedText.length !== 11) return false;

@@ -22,7 +22,8 @@ const TCNoVerification = identyNumber => {
   }
   
   const TCNoSecondFromTheLastDigit = ((sumOfEvenIndexes * 7 - sumOfOddIndexes) % 10 + 10) % 10; 
-  return TCNoLastDigit === +identyNumber[10] && TCNoSecondFromTheLastDigit == +identyNumber[9];
+
+    return TCNoLastDigit === +identyNumber[10] && TCNoSecondFromTheLastDigit == +identyNumber[9];
 };
 
 export default TCNoVerification;
